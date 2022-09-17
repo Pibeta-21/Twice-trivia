@@ -41,7 +41,7 @@ while iniciar_trivia == True:
   if respuesta_1 == "a":
     puntaje = puntaje + 2
     print(YELLOW+"Incorrecto;"+RESET, nombre_1,YELLOW+",ese año debutó Blackpink. Año de las blinks"+RESET)
-    elif respuesta_1 == "b":
+  elif respuesta_1 == "b":
       print(GREEN+"Así es;"+RESET, nombre_1,GREEN+", One in a million is forever."+RESET)
       puntaje += 10
   elif respuesta_1 == "c":
@@ -97,7 +97,7 @@ while iniciar_trivia == True:
     print(YELLOW+"Incorrecto;"+RESET, nombre_1,YELLOW+", esta es del 2019"+RESET)
     puntaje = puntaje + 8
   elif respuesta_3 == "d":
-    print(YELLOW+"Nada;"+RESET, nombre_1,YELLOW+", esta es del mismo año que Feel Special"+RESET)
+    print(YELLOW+"Nada;"+RESET, nombre_1,YELLOW+", esta canción es del mismo año que Feel Special"+RESET)
     puntaje = puntaje / 5
   
   time.sleep(3)
